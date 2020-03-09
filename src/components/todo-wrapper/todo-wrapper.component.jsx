@@ -37,7 +37,6 @@ class TodoWrapper extends React.Component {
   addTodo = todo => {
     this.state.todos.unshift(todo);
     this.setState({ todos: this.state.todos });
-    console.log("I am the virus", this.state);
   };
 
   resetTodo = () => {
