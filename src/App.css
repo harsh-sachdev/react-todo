@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.todo-wrapper {
+  width: 600px;
+  margin-top: 10vh;
+}
+
+.title {
+  text-align: left;
+  margin-left: 25px;
+  color: #fff;
+  padding: 10px;
+  font-weight: 400;
+  margin-top: 23px;
+  background: linear-gradient(
+    to right,
+    rgba(42, 72, 107, 1) 0%,
+    rgba(80, 122, 167, 1) 100%
+  );
+}
+
+button.reset {
+  float: right;
+  display: block;
+  margin-top: 7px;
+}
+
+.line-through,
+.line-through:hover {
+  text-decoration: line-through;
+}
+
+.todo-add {
+  text-align: center;
+  margin-left: 30px;
+  display: block;
+}
+
+.todo-item {
+  text-align: left;
+  cursor: pointer;
+}
+
+.todo-list ul {
+  list-style: none !important;
+}
+
+.filters {
+  text-align: center;
+    border: 1px dotted #f0f0f0;
+    box-shadow: 2px 3px #f8f8f8;
+    padding: 0;
+}
+.filters h5 {
+  background: linear-gradient( to right, rgb(138, 150, 164) 0%, rgb(204, 214, 224) 100% );
+  color: #2f4e72;
+}
+
+.close-filter {
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+}
+
+.filters ul {
+  padding: 0px;
+}
+
+.filters .list-group-item {
+  padding: 5px;
+  cursor: pointer;
+}
+.filters ul li.list-group-item span{
+  color: red;
+  float: right;
+}
