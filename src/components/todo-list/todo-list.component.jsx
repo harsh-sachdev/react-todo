@@ -82,7 +82,7 @@ class TodoList extends React.Component {
   componentDidUpdate() {
     const that = this;
     $(".todo-item span button").click(function(e) {
-      e.preventDefault();
+      e.stopPropagation();
       that.props.setFilter(e.target.innerHTML);
     });
   }
